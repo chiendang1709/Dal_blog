@@ -1,0 +1,49 @@
+.footer{
+    background-color: rgba(30,30,30,.97);;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding-top: 16px  ;
+    font-size: 1vw;
+    color:  #595959;
+    .footer__wrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .team__logo { img{
+            border-radius:50%;
+            width: 100%;
+        }}
+        .footer__item {
+            .contract{
+                display: flex;
+                flex-direction: column;
+                align-content: space-between;
+                justify-content: center;
+                .contract__title { h3{
+                    color:#ecf0f5;
+                }}
+                .contract__item { strong{
+                    color:#ecf0f5;  
+                }}
+                .footer__copyright{
+                    background-color: #323232;
+                    width: 100%;
+                    border-top: 1px solid #525252;
+                    text-align: center;
+                    padding:16px;
+                
+                }           
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+

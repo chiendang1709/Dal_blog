@@ -1,0 +1,108 @@
+.blog {
+    position: relative;
+    top: 50px;
+    margin-bottom: 150px;
+    .blog__wrapper {
+        display: flex;
+        margin: 0 -8px;
+        flex-wrap: nowrap;
+        justify-content:space-between;
+        .blog__item{
+            padding: 20px 20px;
+            border: 1px solid rgba(0,0,0,0.1);
+            background: #ffff;
+            border-radius: 10px;
+            &.news{
+                width: 70%;
+            }
+            &.suggests{
+                width: 25%; 
+            }
+            .blog__title{
+                margin:16px 0px;
+                border-bottom: 1px solid black;
+                font-size: 1vw;
+                
+            }
+            .blog__news {
+                .news__image{ img {
+                    width: 100%;   
+                    border-radius: 10px; 
+                }}
+                .news__title { 
+                    h3{
+                    font-size: 2vw;
+                } }
+                // .news__content{   
+                // }
+                .news_more{
+                    margin: 0 auto;
+                    position: relative;
+                    left: 40%;
+                    top: 20px;
+                }
+
+                
+
+            }
+          
+            .suggests__blog{
+                display: flex;
+                flex-direction: column;
+            }
+            .suggests__item{
+                margin-top: 10px;
+                .suggests__image { 
+                    img{
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 10px; 
+                    }
+                }
+                .suggests__title {
+                    h3 {
+                    font-size: 1.5vw;
+                    }
+                }
+            }
+            
+        }
+
+
+    }
+   
+}
+
+
+
+
+
+   
+
+
+
+.blog__item{
+    padding: 20px 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: #ffff;
+    border-radius: 2px;
+
+}
+
+
+
+
+
+
+.news_more{
+    margin: 0 auto;
+    position: relative;
+    left: 40%;
+    top: 20px;
+}
+
+
+
+
+
+
