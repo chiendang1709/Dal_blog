@@ -46,8 +46,8 @@ export default function Signup() {
                         <input name="last_name" type="text" placeholder="VD: Văn A" {...register("last_name")} />  
                       </div>
                       </div>
-                      {errors.first_name && <span className="form-message">{errors.first_name.message}</span>} 
-                      {errors.last_name && <span className="form-message last">{errors.last_name.message}</span>} 
+                      {(errors.first_name || errors.last_name) && <span className="form-message">Không được để trống!</span>} 
+                      {/* {errors.last_name && <span className="form-message last">{errors.last_name.message}</span>}  */}
                      
                     </div>
                     <div className="form-group">
